@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure access</title>
+    <script>
+        function checkPassword() {
+            const correctPassword = "0000"; 
+            const userPassword = prompt("Enter password:");
+
+            if (userPassword === correctPassword) {
+                alert("Correct!");
+                window.location.href = "https://lightluminousss.github.io/lightluminous/salikhovilkhomjon"; 
+            } else {
+                alert("Incorrect!");
+            }
+        }
+    </script>
+</head>
+<body onload="checkPassword()">
+    <h2>You have been blocked by the website admin.</h2>
+</body>
+</html>
